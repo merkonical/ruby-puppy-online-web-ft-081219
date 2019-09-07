@@ -19,6 +19,8 @@ class Dog
     puts @@all.map(&:name)
   end 
   
+  def self.clear_all 
+  
   def save
     @@all << self
   end 
