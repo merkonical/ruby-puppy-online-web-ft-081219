@@ -7,5 +7,5 @@ class Dog
     @name = name
   end 
   
-  def 
+  def self.all 
 end
