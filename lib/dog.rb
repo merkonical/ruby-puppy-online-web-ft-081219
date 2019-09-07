@@ -1,5 +1,6 @@
 # Add your code here
 class Dog
+  attr_accessor :name 
   
   @@all 
   
@@ -8,4 +9,6 @@ class Dog
   end 
   
   def self.all 
+    @@all 
+  end 
 end
